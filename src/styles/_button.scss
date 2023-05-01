@@ -19,3 +19,11 @@ button:active {
   opacity: .7;
   transform: scale(.94);
 }
+
+button:disabled {
+  cursor: not-allowed;
+  color: gray;
+  background: #343434;
+  transform: scale(1);
+  opacity: 1;
+}
