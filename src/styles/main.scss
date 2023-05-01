@@ -1,5 +1,6 @@
 @import "bootstrap/scss/bootstrap";
 @import "button.scss";
+@import "input.scss";
 
 body {
   font-family: "Roboto Thin", sans-serif;
@@ -21,30 +22,7 @@ body {
       border-radius: 25px;
       box-shadow: 1px 1px 5px black;
 
-      label {
-        width: 100%;
 
-        input {
-          width: 100%;
-          border-radius: 10px;
-          box-shadow: 1px 1px 5px black;
-          border: none;
-          outline: none;
-          text-align: center;
-        }
-
-        #invoice {
-          height: 50px;
-        }
-
-        #comment {
-          height: 100px;
-        }
-        input::-webkit-input-placeholder {
-          color: black;
-          opacity: 0.3;
-        }
-      }
     }
   }
 }
