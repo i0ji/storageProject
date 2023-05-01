@@ -1,0 +1,44 @@
+@import "bootstrap/scss/bootstrap";
+@import "button.scss";
+
+body {
+  font-family: "Roboto Thin", sans-serif;
+  background: antiquewhite;
+  height: 100vh;
+
+
+  .container {
+    display: flex;
+    height: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    align-items: center;
+
+    .form {
+      background-color: teal;
+      width: 320px;
+      height: 200px;
+      border-radius: 25px;
+      box-shadow: 1px 1px 5px black;
+
+      label {
+        width: 100%;
+
+        input {
+          height: 50px;
+          width: 100%;
+          border-radius: 10px;
+          box-shadow: 1px 1px 5px black;
+          border: none;
+          outline: none;
+          text-align: center;
+        }
+        input::-webkit-input-placeholder {
+          color: black;
+          opacity: 0.3;
+        }
+
+      }
+    }
+  }
+}
