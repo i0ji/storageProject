@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<script defer src="bundle.js"></script></head>
+<body>
+
+
+<div class="container d-flex justify-content-center">
+
+    <div class="form p-1 d-flex justify-content-around flex-column align-items-center">
+
+        <div class="col-9">
+            <label for="invoice">
+                <input id="invoice" autofocus placeholder="Введите номер накладной"/>
+            </label>
+        </div>
+        <div class="col-9">
+            <label for="comment">
+                <textarea maxlength="100" id="comment" rows="4" wrap="soft" placeholder="Введите комментарий"></textarea>
+            </label>
+        </div>
+
+        <div class="col-6">
+            <button id="add_btn" disabled>Прикрепить фотографии</button>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
